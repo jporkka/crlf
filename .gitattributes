@@ -1,0 +1,13 @@
+# Ensure *.bat files are always CRLF endings.
+*.doc text eol=crlf
+*.md text eol=lf
+#*.txt text eol=??
+
+
+# 1 First, created repo
+#   core.autocrlf=false
+# 2 Checked in README files with CRLF endings
+# 3 adding .gitattributes
+# 4 
+
+
