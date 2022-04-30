@@ -1,6 +1,9 @@
 # Ensure *.bat files are always CRLF endings.
 *.doc text eol=crlf
 *.md text eol=lf
+#*.lf1 text eol=lf
+#*.lf2 text eol=crlf
+
 #*.txt text eol=??
 
 
@@ -8,6 +11,17 @@
 #   core.autocrlf=false
 # 2 Checked in README files with CRLF endings
 # 3 adding .gitattributes
-# 4 
+# 4 git add --renormalize .
+# 5 commit and push
+#
+#    From Windows:
+#        README.doc: 9 lines, CR:9, NL:8
+#        README.md: 9 lines, CR:9, NL:8
+#        README.txt: 9 lines, CR:9, NL:8
+#
+#    From Linux:
+#        README.doc: 9 lines, CR:9, NL:8
+#        README.md: 9 lines, CR:2, NL:8
+#        README.txt: 9 lines, CR:9, NL:8
 
 
